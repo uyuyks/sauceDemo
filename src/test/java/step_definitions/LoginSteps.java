@@ -1,8 +1,10 @@
 package step_definitions;
 
 import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.example.pageObject.LoginPage;
+import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 
 public class LoginSteps {
@@ -30,4 +32,11 @@ public class LoginSteps {
         loginPage.setPassword(password);
         loginPage.clickLogin();
     }
+    @Then("User see error \"(.*)\" in login page")
+    public void errorText(String errorText){
+        LoginPage login = new LoginPage(webDriver);
+        String error = "Epic sadface: Username and password do not match any user in this service";
+        Assert.assertEquals(errorText, login.getErrorText());
+    }
+
 }

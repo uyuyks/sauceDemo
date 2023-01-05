@@ -14,7 +14,8 @@ public class LoginPage {
         this.driver = driver;
     }
 
-    @FindBy(xpath = "//input[@id='user-name']")
+//    @FindBy(xpath = "//input[@id='user-name']")
+    @FindBy(id = "user-name")
     private WebElement userName;
 
     @FindBy(xpath = "//input[@id='password']")
@@ -22,6 +23,9 @@ public class LoginPage {
 
     @FindBy(id = "login-button")
     private WebElement btnLogin;
+    @FindBy(xpath = "//h3")
+    private WebElement errorText;
+
 
     public void setUserName (String user){
         userName.sendKeys(user);
@@ -39,5 +43,7 @@ public class LoginPage {
         userName.isDisplayed();
         return true;
     }
-
+    public String getErrorText(){
+        return errorText.getText();
+    }
 }
