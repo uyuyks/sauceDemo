@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 3239726991,
+  "duration": 3790162178,
   "status": "passed"
 });
 formatter.scenario({
@@ -36,41 +36,56 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "User pick item Sauce Labs Fleece Jacket",
-  "keyword": "And "
+  "name": "User already on landing page",
+  "keyword": "Then "
 });
 formatter.step({
   "line": 9,
-  "name": "User pick item Sauce Labs Onesie",
+  "name": "User sort product list by name z to a",
   "keyword": "And "
 });
 formatter.step({
   "line": 10,
-  "name": "User Click button \"Shopping Cart Badge\"",
+  "name": "User pick item Sauce Labs Onesie",
   "keyword": "And "
 });
 formatter.step({
   "line": 11,
-  "name": "User Click button \"Checkout\"",
+  "name": "User pick item Test.allTheThings T-Shirt Red",
   "keyword": "And "
 });
 formatter.step({
   "line": 12,
-  "name": "User input \"first-name\" and input \"last-name\"",
+  "name": "User Click button \"Shopping Cart Badge\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 13,
-  "name": "User input \"postal-code\"",
+  "name": "User Remove item Test.allTheThings T-Shirt Red",
   "keyword": "And "
 });
 formatter.step({
   "line": 14,
-  "name": "User Click button \"Continue\"",
+  "name": "User Click button \"Checkout\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 15,
+  "name": "User input \"first-name\" and input \"last-name\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 16,
+  "name": "User input \"postal-code\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 17,
+  "name": "User Click button \"Continue\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 18,
   "name": "User Click button \"Finish\"",
   "keyword": "And "
 });
@@ -78,7 +93,7 @@ formatter.match({
   "location": "LoginSteps.verifyDisplay()"
 });
 formatter.result({
-  "duration": 435390095,
+  "duration": 304268476,
   "status": "passed"
 });
 formatter.match({
@@ -95,67 +110,88 @@ formatter.match({
   "location": "LoginSteps.inputCredential(String,String)"
 });
 formatter.result({
-  "duration": 449137334,
+  "duration": 413501455,
+  "status": "passed"
+});
+formatter.match({
+  "location": "PurchaseSteps.verifyLandingPage()"
+});
+formatter.result({
+  "duration": 56645316,
+  "status": "passed"
+});
+formatter.match({
+  "location": "PurchaseSteps.selectProductContainer()"
+});
+formatter.result({
+  "duration": 138882520,
   "status": "passed"
 });
 formatter.match({
   "location": "PurchaseSteps.clickItemBasket1()"
 });
 formatter.result({
-  "duration": 140544817,
+  "duration": 59163559,
   "status": "passed"
 });
 formatter.match({
   "location": "PurchaseSteps.clickItemBasket2()"
 });
 formatter.result({
-  "duration": 85413338,
+  "duration": 69977104,
   "status": "passed"
 });
 formatter.match({
   "location": "PurchaseSteps.clickCartButton()"
 });
 formatter.result({
-  "duration": 5104599272,
+  "duration": 5080078624,
+  "status": "passed"
+});
+formatter.match({
+  "location": "PurchaseSteps.removeItemATT()"
+});
+formatter.result({
+  "duration": 3107903398,
   "status": "passed"
 });
 formatter.match({
   "location": "PurchaseSteps.clickCheckoutButton()"
 });
 formatter.result({
-  "duration": 5147694801,
+  "duration": 5097410945,
   "status": "passed"
 });
 formatter.match({
   "location": "PurchaseSteps.setFirstAndLastName()"
 });
 formatter.result({
-  "duration": 284489111,
+  "duration": 213867686,
   "status": "passed"
 });
 formatter.match({
   "location": "PurchaseSteps.setPostalCode()"
 });
 formatter.result({
-  "duration": 103688376,
+  "duration": 108975657,
   "status": "passed"
 });
 formatter.match({
   "location": "PurchaseSteps.clickContinueButton()"
 });
 formatter.result({
-  "duration": 5096657677,
+  "duration": 5091775863,
   "status": "passed"
 });
 formatter.match({
   "location": "PurchaseSteps.clickFinishButton()"
 });
 formatter.result({
-  "duration": 5165190156,
+  "duration": 5096185907,
   "status": "passed"
 });
 formatter.after({
-  "duration": 169180630,
+  "duration": 127921655,
   "status": "passed"
 });
 formatter.uri("features/Login.feature");
@@ -173,7 +209,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 2496337346,
+  "duration": 2154006492,
   "status": "passed"
 });
 formatter.scenario({
@@ -198,7 +234,7 @@ formatter.match({
   "location": "LoginSteps.verifyDisplay()"
 });
 formatter.result({
-  "duration": 131184038,
+  "duration": 122246338,
   "status": "passed"
 });
 formatter.match({
@@ -215,11 +251,11 @@ formatter.match({
   "location": "LoginSteps.inputCredential(String,String)"
 });
 formatter.result({
-  "duration": 668384373,
+  "duration": 792654166,
   "status": "passed"
 });
 formatter.after({
-  "duration": 121190132,
+  "duration": 114886954,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -242,7 +278,7 @@ formatter.step({
 });
 formatter.step({
   "line": 12,
-  "name": "User see error \"\u003cerrorMessages\u003e\" in login page",
+  "name": "User see error \"\u003cerrorMessages\u003e\" as errorText in login page",
   "keyword": "Then "
 });
 formatter.examples({
@@ -264,7 +300,7 @@ formatter.examples({
       "cells": [
         "nurul",
         "123",
-        "Epic sadface: Username and password do not match any user in this service"
+        "Epic sadface: Username and password do not match any user in this services"
       ],
       "line": 15,
       "id": "login;invalid-login;;2"
@@ -291,7 +327,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 1293021381,
+  "duration": 1623093505,
   "status": "passed"
 });
 formatter.scenario({
@@ -324,7 +360,7 @@ formatter.step({
 });
 formatter.step({
   "line": 12,
-  "name": "User see error \"Epic sadface: Username and password do not match any user in this service\" in login page",
+  "name": "User see error \"Epic sadface: Username and password do not match any user in this services\" as errorText in login page",
   "matchedColumns": [
     2
   ],
@@ -334,9 +370,8 @@ formatter.match({
   "location": "LoginSteps.verifyDisplay()"
 });
 formatter.result({
-  "duration": 40587219,
-  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#user\\-name\"}\n  (Session info: chrome\u003d103.0.5060.114)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.1.2\u0027, revision: \u00279a5a329c5a\u0027\nSystem info: host: \u0027Shin\u0027, ip: \u0027127.0.1.1\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00275.4.0-122-generic\u0027, java.version: \u00271.8.0_312\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [1fbb62f93cc5c06b009546ee00e40a3b, findElement {using\u003did, value\u003duser-name}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: /tmp/.com.google.Chrome.7DiTTj}, goog:chromeOptions: {debuggerAddress: localhost:39489}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:39489/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 1fbb62f93cc5c06b009546ee00e40a3b\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\n\tat com.sun.proxy.$Proxy21.isDisplayed(Unknown Source)\n\tat org.example.pageObject.LoginPage.isDisplayed(LoginPage.java:43)\n\tat step_definitions.LoginSteps.verifyDisplay(LoginSteps.java:22)\n\tat ✽.Given user open the website sauce demo(features/Login.feature:10)\n",
-  "status": "failed"
+  "duration": 65771949,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -352,26 +387,28 @@ formatter.match({
   "location": "LoginSteps.inputCredential(String,String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 403614817,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Epic sadface: Username and password do not match any user in this service",
+      "val": "Epic sadface: Username and password do not match any user in this services",
       "offset": 16
     }
   ],
   "location": "LoginSteps.errorText(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 384275,
+  "status": "passed"
 });
 formatter.after({
-  "duration": 122229778,
+  "duration": 118029052,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2999869456,
+  "duration": 2047934248,
   "status": "passed"
 });
 formatter.scenario({
@@ -404,7 +441,7 @@ formatter.step({
 });
 formatter.step({
   "line": 12,
-  "name": "User see error \"Epic sadface: Password is required\" in login page",
+  "name": "User see error \"Epic sadface: Password is required\" as errorText in login page",
   "matchedColumns": [
     2
   ],
@@ -414,7 +451,7 @@ formatter.match({
   "location": "LoginSteps.verifyDisplay()"
 });
 formatter.result({
-  "duration": 50125164,
+  "duration": 94992791,
   "status": "passed"
 });
 formatter.match({
@@ -431,7 +468,7 @@ formatter.match({
   "location": "LoginSteps.inputCredential(String,String)"
 });
 formatter.result({
-  "duration": 341885723,
+  "duration": 408159471,
   "status": "passed"
 });
 formatter.match({
@@ -444,15 +481,15 @@ formatter.match({
   "location": "LoginSteps.errorText(String)"
 });
 formatter.result({
-  "duration": 39357689,
+  "duration": 505833,
   "status": "passed"
 });
 formatter.after({
-  "duration": 115687978,
+  "duration": 115544038,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1571438755,
+  "duration": 1813144577,
   "status": "passed"
 });
 formatter.scenario({
@@ -485,7 +522,7 @@ formatter.step({
 });
 formatter.step({
   "line": 12,
-  "name": "User see error \"Epic sadface: Username is required\" in login page",
+  "name": "User see error \"Epic sadface: Username is required\" as errorText in login page",
   "matchedColumns": [
     2
   ],
@@ -495,9 +532,8 @@ formatter.match({
   "location": "LoginSteps.verifyDisplay()"
 });
 formatter.result({
-  "duration": 38052971,
-  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#user\\-name\"}\n  (Session info: chrome\u003d103.0.5060.114)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.1.2\u0027, revision: \u00279a5a329c5a\u0027\nSystem info: host: \u0027Shin\u0027, ip: \u0027127.0.1.1\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00275.4.0-122-generic\u0027, java.version: \u00271.8.0_312\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [e9bd553250391b96693650c596fd4f91, findElement {using\u003did, value\u003duser-name}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: /tmp/.com.google.Chrome.J9byI1}, goog:chromeOptions: {debuggerAddress: localhost:34527}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:34527/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e9bd553250391b96693650c596fd4f91\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\n\tat com.sun.proxy.$Proxy21.isDisplayed(Unknown Source)\n\tat org.example.pageObject.LoginPage.isDisplayed(LoginPage.java:43)\n\tat step_definitions.LoginSteps.verifyDisplay(LoginSteps.java:22)\n\tat ✽.Given user open the website sauce demo(features/Login.feature:10)\n",
-  "status": "failed"
+  "duration": 63494918,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -513,7 +549,8 @@ formatter.match({
   "location": "LoginSteps.inputCredential(String,String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 350714752,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -525,10 +562,11 @@ formatter.match({
   "location": "LoginSteps.errorText(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 410796,
+  "status": "passed"
 });
 formatter.after({
-  "duration": 131414658,
+  "duration": 107043672,
   "status": "passed"
 });
 });

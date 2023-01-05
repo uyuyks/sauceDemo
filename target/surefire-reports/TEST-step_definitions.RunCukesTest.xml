@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="26" failures="0" name="step_definitions.RunCukesTest" time="0.609" errors="4" skipped="4">
+<testsuite tests="29" failures="0" name="step_definitions.RunCukesTest" time="0.594" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2022.3.1"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -64,243 +64,33 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="Scenario: Normal login" name="Given user open the website sauce demo" time="0.003"/>
-  <testcase classname="Scenario: Normal login" name="When user input &quot;standard_user&quot; as userName and input &quot;secret_sauce&quot; as password" time="0.001"/>
-  <testcase classname="Scenario: Normal login" name="And User pick item Sauce Labs Fleece Jacket" time="0"/>
+  <testcase classname="Scenario: Normal login" name="Given user open the website sauce demo" time="0.002"/>
+  <testcase classname="Scenario: Normal login" name="When user input &quot;standard_user&quot; as userName and input &quot;secret_sauce&quot; as password" time="0"/>
+  <testcase classname="Scenario: Normal login" name="Then User already on landing page" time="0"/>
+  <testcase classname="Scenario: Normal login" name="And User sort product list by name z to a" time="0"/>
   <testcase classname="Scenario: Normal login" name="And User pick item Sauce Labs Onesie" time="0"/>
-  <testcase classname="Scenario: Normal login" name="And User Click button &quot;Shopping Cart Badge&quot;" time="0"/>
+  <testcase classname="Scenario: Normal login" name="And User pick item Test.allTheThings T-Shirt Red" time="0"/>
+  <testcase classname="Scenario: Normal login" name="And User Click button &quot;Shopping Cart Badge&quot;" time="0.001"/>
+  <testcase classname="Scenario: Normal login" name="And User Remove item Test.allTheThings T-Shirt Red" time="0"/>
   <testcase classname="Scenario: Normal login" name="And User Click button &quot;Checkout&quot;" time="0"/>
-  <testcase classname="Scenario: Normal login" name="And User input &quot;first-name&quot; and input &quot;last-name&quot;" time="0.001"/>
-  <testcase classname="Scenario: Normal login" name="And User input &quot;postal-code&quot;" time="0.001"/>
+  <testcase classname="Scenario: Normal login" name="And User input &quot;first-name&quot; and input &quot;last-name&quot;" time="0"/>
+  <testcase classname="Scenario: Normal login" name="And User input &quot;postal-code&quot;" time="0"/>
   <testcase classname="Scenario: Normal login" name="And User Click button &quot;Continue&quot;" time="0"/>
   <testcase classname="Scenario: Normal login" name="And User Click button &quot;Finish&quot;" time="0"/>
-  <testcase classname="Scenario: Normal login" name="Scenario: Normal login" time="0.172"/>
-  <testcase classname="Scenario: Normal login" name="Given user open the website sauce demo" time="0.001"/>
+  <testcase classname="Scenario: Normal login" name="Scenario: Normal login" time="0.13"/>
+  <testcase classname="Scenario: Normal login" name="Given user open the website sauce demo" time="0"/>
   <testcase classname="Scenario: Normal login" name="When user input &quot;standard_user&quot; as userName and input &quot;secret_sauce&quot; as password" time="0"/>
-  <testcase classname="Scenario: Normal login" name="Scenario: Normal login" time="0.121"/>
-  <testcase classname="| nurul | 123 | Epic sadface: Username and password do not match any user in this service |" name="Given user open the website sauce demo" time="0.029">
-    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#user\-name&quot;}
-  (Session info: chrome=103.0.5060.114)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
-System info: host: &apos;Shin&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-122-generic&apos;, java.version: &apos;1.8.0_312&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1fbb62f93cc5c06b009546ee00e40a3b, findElement {using=id, value=user-name}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: /tmp/.com.google.Chrome.7DiTTj}, goog:chromeOptions: {debuggerAddress: localhost:39489}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:39489/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1fbb62f93cc5c06b009546ee00e40a3b" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#user\-name&quot;}
-  (Session info: chrome=103.0.5060.114)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
-System info: host: &apos;Shin&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-122-generic&apos;, java.version: &apos;1.8.0_312&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1fbb62f93cc5c06b009546ee00e40a3b, findElement {using=id, value=user-name}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: /tmp/.com.google.Chrome.7DiTTj}, goog:chromeOptions: {debuggerAddress: localhost:39489}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:39489/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1fbb62f93cc5c06b009546ee00e40a3b
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy21.isDisplayed(Unknown Source)
-	at org.example.pageObject.LoginPage.isDisplayed(LoginPage.java:43)
-	at step_definitions.LoginSteps.verifyDisplay(LoginSteps.java:22)
-	at ✽.Given user open the website sauce demo(features/Login.feature:10)
-</error>
-    <system-out>
-  Scenario: Normal login                                                             &amp;#27;[90m# features/Login.feature:5&amp;#27;[0m
-    &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32muser open the website sauce demo&amp;#27;[0m                                           &amp;#27;[90m# LoginSteps.verifyDisplay()&amp;#27;[0m
-    &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32muser input &quot;&amp;#27;[0m&amp;#27;[32m&amp;#27;[1mstandard_user&amp;#27;[0m&amp;#27;[32m&quot; as userName and input &quot;&amp;#27;[0m&amp;#27;[32m&amp;#27;[1msecret_sauce&amp;#27;[0m&amp;#27;[32m&quot; as password&amp;#27;[0m &amp;#27;[90m# LoginSteps.inputCredential(String,String)&amp;#27;[0m
-
-  Scenario Outline: Invalid login                                               &amp;#27;[90m# features/Login.feature:9&amp;#27;[0m
-    &amp;#27;[36mGiven &amp;#27;[0m&amp;#27;[36muser open the website sauce demo&amp;#27;[0m
-    &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36muser input &quot;&lt;userName&gt;&quot; as userName and input &quot;&lt;password&gt;&quot; as password&amp;#27;[0m
-    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mUser see error &quot;&lt;errorMessages&gt;&quot; in login page&amp;#27;[0m
-
-    Examples: 
-</system-out>
-    <system-err>Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 60767
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jan 05, 2023 7:56:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-Jan 05, 2023 7:56:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: a no-op implementation
-Jan 05, 2023 7:56:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Unable to find CDP implementation matching 103.
-Jan 05, 2023 7:56:37 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
-WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.2` where the version (&quot;v86&quot;) matches the version of the chromium-based browser you&apos;re using and the version number of the artifact is the same as Selenium&apos;s.
-</system-err>
-  </testcase>
-  <testcase classname="| nurul | 123 | Epic sadface: Username and password do not match any user in this service |" name="| nurul | 123 | Epic sadface: Username and password do not match any user in this service |" time="0.031">
-    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#user\-name&quot;}
-  (Session info: chrome=103.0.5060.114)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
-System info: host: &apos;Shin&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-122-generic&apos;, java.version: &apos;1.8.0_312&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1fbb62f93cc5c06b009546ee00e40a3b, findElement {using=id, value=user-name}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: /tmp/.com.google.Chrome.7DiTTj}, goog:chromeOptions: {debuggerAddress: localhost:39489}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:39489/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1fbb62f93cc5c06b009546ee00e40a3b" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#user\-name&quot;}
-  (Session info: chrome=103.0.5060.114)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
-System info: host: &apos;Shin&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-122-generic&apos;, java.version: &apos;1.8.0_312&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1fbb62f93cc5c06b009546ee00e40a3b, findElement {using=id, value=user-name}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: /tmp/.com.google.Chrome.7DiTTj}, goog:chromeOptions: {debuggerAddress: localhost:39489}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:39489/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1fbb62f93cc5c06b009546ee00e40a3b
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy21.isDisplayed(Unknown Source)
-	at org.example.pageObject.LoginPage.isDisplayed(LoginPage.java:43)
-	at step_definitions.LoginSteps.verifyDisplay(LoginSteps.java:22)
-	at ✽.Given user open the website sauce demo(features/Login.feature:10)
-</error>
-  </testcase>
-  <testcase classname="| nurul | 123 | Epic sadface: Username and password do not match any user in this service |" name="When user input &quot;nurul&quot; as userName and input &quot;123&quot; as password" time="0.041">
-    <skipped/>
-  </testcase>
-  <testcase classname="| nurul | 123 | Epic sadface: Username and password do not match any user in this service |" name="Then User see error &quot;Epic sadface: Username and password do not match any user in this service&quot; in login page" time="0.042">
-    <skipped/>
-  </testcase>
+  <testcase classname="Scenario: Normal login" name="Scenario: Normal login" time="0.115"/>
+  <testcase classname="| nurul | 123 | Epic sadface: Username and password do not match any user in this services |" name="Given user open the website sauce demo" time="0"/>
+  <testcase classname="| nurul | 123 | Epic sadface: Username and password do not match any user in this services |" name="When user input &quot;nurul&quot; as userName and input &quot;123&quot; as password" time="0"/>
+  <testcase classname="| nurul | 123 | Epic sadface: Username and password do not match any user in this services |" name="Then User see error &quot;Epic sadface: Username and password do not match any user in this services&quot; as errorText in login page" time="0"/>
+  <testcase classname="| nurul | 123 | Epic sadface: Username and password do not match any user in this services |" name="| nurul | 123 | Epic sadface: Username and password do not match any user in this services |" time="0.119"/>
   <testcase classname="| nurul |  | Epic sadface: Password is required |" name="Given user open the website sauce demo" time="0"/>
   <testcase classname="| nurul |  | Epic sadface: Password is required |" name="When user input &quot;nurul&quot; as userName and input &quot;&quot; as password" time="0"/>
-  <testcase classname="| nurul |  | Epic sadface: Password is required |" name="Then User see error &quot;Epic sadface: Password is required&quot; in login page" time="0"/>
-  <testcase classname="| nurul |  | Epic sadface: Password is required |" name="| nurul |  | Epic sadface: Password is required |" time="0.117"/>
-  <testcase classname="|  | 123 | Epic sadface: Username is required |" name="Given user open the website sauce demo" time="0.002">
-    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#user\-name&quot;}
-  (Session info: chrome=103.0.5060.114)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
-System info: host: &apos;Shin&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-122-generic&apos;, java.version: &apos;1.8.0_312&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e9bd553250391b96693650c596fd4f91, findElement {using=id, value=user-name}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: /tmp/.com.google.Chrome.J9byI1}, goog:chromeOptions: {debuggerAddress: localhost:34527}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:34527/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: e9bd553250391b96693650c596fd4f91" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#user\-name&quot;}
-  (Session info: chrome=103.0.5060.114)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
-System info: host: &apos;Shin&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-122-generic&apos;, java.version: &apos;1.8.0_312&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e9bd553250391b96693650c596fd4f91, findElement {using=id, value=user-name}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: /tmp/.com.google.Chrome.J9byI1}, goog:chromeOptions: {debuggerAddress: localhost:34527}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:34527/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: e9bd553250391b96693650c596fd4f91
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy21.isDisplayed(Unknown Source)
-	at org.example.pageObject.LoginPage.isDisplayed(LoginPage.java:43)
-	at step_definitions.LoginSteps.verifyDisplay(LoginSteps.java:22)
-	at ✽.Given user open the website sauce demo(features/Login.feature:10)
-</error>
-    <system-out>
-  @Login
-  Scenario Outline: Invalid login                                          &amp;#27;[90m# features/Login.feature:16&amp;#27;[0m
-    &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32muser open the website sauce demo&amp;#27;[0m                                 &amp;#27;[90m# LoginSteps.verifyDisplay()&amp;#27;[0m
-    &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32muser input &quot;&amp;#27;[0m&amp;#27;[32m&amp;#27;[1mnurul&amp;#27;[0m&amp;#27;[32m&quot; as userName and input &quot;&amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&amp;#27;[0m&amp;#27;[32m&quot; as password&amp;#27;[0m           &amp;#27;[90m# LoginSteps.inputCredential(String,String)&amp;#27;[0m
-    &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mUser see error &quot;&amp;#27;[0m&amp;#27;[32m&amp;#27;[1mEpic sadface: Password is required&amp;#27;[0m&amp;#27;[32m&quot; in login page&amp;#27;[0m &amp;#27;[90m# LoginSteps.errorText(String)&amp;#27;[0m
-</system-out>
-    <system-err>Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 44585
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jan 05, 2023 7:56:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-Jan 05, 2023 7:56:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: a no-op implementation
-Jan 05, 2023 7:56:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Unable to find CDP implementation matching 103.
-Jan 05, 2023 7:56:42 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
-WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.2` where the version (&quot;v86&quot;) matches the version of the chromium-based browser you&apos;re using and the version number of the artifact is the same as Selenium&apos;s.
-</system-err>
-  </testcase>
-  <testcase classname="|  | 123 | Epic sadface: Username is required |" name="|  | 123 | Epic sadface: Username is required |" time="0.007">
-    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#user\-name&quot;}
-  (Session info: chrome=103.0.5060.114)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
-System info: host: &apos;Shin&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-122-generic&apos;, java.version: &apos;1.8.0_312&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e9bd553250391b96693650c596fd4f91, findElement {using=id, value=user-name}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: /tmp/.com.google.Chrome.J9byI1}, goog:chromeOptions: {debuggerAddress: localhost:34527}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:34527/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: e9bd553250391b96693650c596fd4f91" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#user\-name&quot;}
-  (Session info: chrome=103.0.5060.114)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
-System info: host: &apos;Shin&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-122-generic&apos;, java.version: &apos;1.8.0_312&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e9bd553250391b96693650c596fd4f91, findElement {using=id, value=user-name}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: /tmp/.com.google.Chrome.J9byI1}, goog:chromeOptions: {debuggerAddress: localhost:34527}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:34527/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: e9bd553250391b96693650c596fd4f91
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy21.isDisplayed(Unknown Source)
-	at org.example.pageObject.LoginPage.isDisplayed(LoginPage.java:43)
-	at step_definitions.LoginSteps.verifyDisplay(LoginSteps.java:22)
-	at ✽.Given user open the website sauce demo(features/Login.feature:10)
-</error>
-  </testcase>
-  <testcase classname="|  | 123 | Epic sadface: Username is required |" name="When user input &quot;&quot; as userName and input &quot;123&quot; as password" time="0.019">
-    <skipped/>
-  </testcase>
-  <testcase classname="|  | 123 | Epic sadface: Username is required |" name="Then User see error &quot;Epic sadface: Username is required&quot; in login page" time="0.021">
-    <skipped/>
-  </testcase>
+  <testcase classname="| nurul |  | Epic sadface: Password is required |" name="Then User see error &quot;Epic sadface: Password is required&quot; as errorText in login page" time="0"/>
+  <testcase classname="| nurul |  | Epic sadface: Password is required |" name="| nurul |  | Epic sadface: Password is required |" time="0.116"/>
+  <testcase classname="|  | 123 | Epic sadface: Username is required |" name="Given user open the website sauce demo" time="0.001"/>
+  <testcase classname="|  | 123 | Epic sadface: Username is required |" name="When user input &quot;&quot; as userName and input &quot;123&quot; as password" time="0"/>
+  <testcase classname="|  | 123 | Epic sadface: Username is required |" name="Then User see error &quot;Epic sadface: Username is required&quot; as errorText in login page" time="0.002"/>
+  <testcase classname="|  | 123 | Epic sadface: Username is required |" name="|  | 123 | Epic sadface: Username is required |" time="0.108"/>
 </testsuite>

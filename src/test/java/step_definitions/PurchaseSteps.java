@@ -2,11 +2,13 @@ package step_definitions;
 
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import cucumber.api.java.en_scouse.An;
 import gherkin.lexer.Th;
 import org.example.pageObject.LoginPage;
 import org.example.pageObject.inventoryPage;
+import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 
 public class PurchaseSteps {
@@ -16,13 +18,21 @@ public class PurchaseSteps {
         this.webDriver = Hooks.webDriver;
     }
 
-    @And("User pick item Sauce Labs Fleece Jacket")
+    @And("User sort product list by name z to a")
+    public void selectProductContainer() throws InterruptedException {
+        inventoryPage inventoryPage = new inventoryPage(webDriver);
+        String a = "Name (Z to A)";
+        inventoryPage.selectProductContainer(a);
+    }
+
+
+    @And("User pick item Sauce Labs Onesie")
     public void clickItemBasket1() throws InterruptedException {
         inventoryPage inventoryPage = new inventoryPage(webDriver);
         inventoryPage.clickBase1();
     }
 
-    @And("User pick item Sauce Labs Onesie")
+    @And("User pick item Test.allTheThings T-Shirt Red")
     public void clickItemBasket2() throws InterruptedException {
         inventoryPage inventoryPage = new inventoryPage(webDriver);
         inventoryPage.clickBase2();
@@ -33,6 +43,13 @@ public class PurchaseSteps {
         inventoryPage inventoryPage = new inventoryPage(webDriver);
         inventoryPage.clickCart();
         Thread.sleep(5000);
+    }
+
+    @And("User Remove item Test.allTheThings T-Shirt Red")
+    public void removeItemATT() throws InterruptedException{
+        inventoryPage inventoryPage = new inventoryPage(webDriver);
+        inventoryPage.clickRemoveATT();
+        Thread.sleep(3000);
     }
 
     @And("User Click button \"Checkout\"")
@@ -67,5 +84,12 @@ public class PurchaseSteps {
         inventoryPage inventoryPage = new inventoryPage(webDriver);
         inventoryPage.clickFinish();
         Thread.sleep(5000);
+    }
+
+
+    @Then("User already on landing page")
+    public void verifyLandingPage(){
+        inventoryPage inventoryPage = new inventoryPage(webDriver);
+        Assert.assertTrue(inventoryPage.displayLandingPage());
     }
 }

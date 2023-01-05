@@ -14,8 +14,8 @@ public class LoginPage {
         this.driver = driver;
     }
 
-//    @FindBy(xpath = "//input[@id='user-name']")
-    @FindBy(id = "user-name")
+    //    @FindBy(id = "user-name")
+    @FindBy(xpath = "//input[@id='user-name']")
     private WebElement userName;
 
     @FindBy(xpath = "//input[@id='password']")
@@ -25,6 +25,8 @@ public class LoginPage {
     private WebElement btnLogin;
     @FindBy(xpath = "//h3")
     private WebElement errorText;
+
+
 
 
     public void setUserName (String user){

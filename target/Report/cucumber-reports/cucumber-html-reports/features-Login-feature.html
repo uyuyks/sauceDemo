@@ -76,7 +76,7 @@ $(document).ready(function() {
           <tr class="info">
             <td>Project Name</td>
                           <td>1</td>
-                        <td>05 Jan 2023, 19:56</td>
+                        <td>05 Jan 2023, 21:56</td>
           </tr>
         </tbody>
       </table>
@@ -123,17 +123,17 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">Login</td>
-                    <td  class="passed"    >2</td>
-          <td  class="failed"    >2</td>
+                    <td  class="passed"    >4</td>
+          <td >0</td>
           <td class="total">4</td>
-          <td      class="passed"    >5</td>
-          <td      class="failed"    >2</td>
-          <td     class="skipped"   >4</td>
+          <td      class="passed"    >11</td>
+          <td >0</td>
+          <td >0</td>
           <td >0</td>
           <td >0</td>
           <td class="total">11</td>
-          <td class="duration" data-value="1309577177">1s 309ms</td>
-          <td class="failed">Failed</td>
+          <td class="duration" data-value="2302950106">2s 302ms</td>
+          <td class="passed">Passed</td>
         </tr>
         </tbody>
 
@@ -154,7 +154,7 @@ $(document).ready(function() {
   </div>
 
         
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Feature</span>
   <span class="name">Login</span>
   
@@ -206,7 +206,7 @@ $(document).ready(function() {
             <span class="keyword indention">Before</span>
                           <span class="location name">Hooks.openBrowser()</span>
                         
-  <span class="lead-duration duration">2s 496ms</span>
+  <span class="lead-duration duration">2s 154ms</span>
 
           </div>
 
@@ -241,7 +241,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">user open the website sauce demo</span>
   
-  <span class="lead-duration duration">131ms</span>
+  <span class="lead-duration duration">122ms</span>
 
   </div>
 
@@ -262,7 +262,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">user input "standard_user" as userName and input "secret_sauce" as password</span>
   
-  <span class="lead-duration duration">668ms</span>
+  <span class="lead-duration duration">792ms</span>
 
   </div>
 
@@ -301,7 +301,7 @@ $(document).ready(function() {
             <span class="keyword indention">After</span>
                           <span class="location name">Hooks.closeBrowser()</span>
                         
-  <span class="lead-duration duration">121ms</span>
+  <span class="lead-duration duration">114ms</span>
 
           </div>
 
@@ -326,9 +326,9 @@ $(document).ready(function() {
   </div>
 
 
-    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-5">
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-5">
     
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
   <span class="name">Invalid login</span>
   
@@ -339,7 +339,7 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-5" class="collapse collapsable-details  in ">
+  <div id="element-5" class="collapse collapsable-details ">
     
   <div class="inner-level hooks-before">
         <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-6">
@@ -360,7 +360,7 @@ $(document).ready(function() {
             <span class="keyword indention">Before</span>
                           <span class="location name">Hooks.openBrowser()</span>
                         
-  <span class="lead-duration duration">1s 293ms</span>
+  <span class="lead-duration duration">1s 623ms</span>
 
           </div>
 
@@ -376,9 +376,9 @@ $(document).ready(function() {
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-7">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-7">
     
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
   
@@ -388,59 +388,18 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-7" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-7" class="inner-level collapse collapsable-details ">
           <div class="step">
         
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Given</span>
   <span class="name">user open the website sauce demo</span>
   
-  <span class="lead-duration duration">040ms</span>
+  <span class="lead-duration duration">065ms</span>
 
   </div>
 
         
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-8">
-          <a>Error message</a>
-      </div>
-      <div id="msg-8" class="collapse collapsable-details">
-        <pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#user\-name"}
-  (Session info: chrome=103.0.5060.114)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.1.2', revision: '9a5a329c5a'
-System info: host: 'Shin', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-122-generic', java.version: '1.8.0_312'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1fbb62f93cc5c06b009546ee00e40a3b, findElement {using=id, value=user-name}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: /tmp/.com.google.Chrome.7DiTTj}, goog:chromeOptions: {debuggerAddress: localhost:39489}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:39489/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1fbb62f93cc5c06b009546ee00e40a3b
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy21.isDisplayed(Unknown Source)
-	at org.example.pageObject.LoginPage.isDisplayed(LoginPage.java:43)
-	at step_definitions.LoginSteps.verifyDisplay(LoginSteps.java:22)
-	at ✽.Given user open the website sauce demo(features/Login.feature:10)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
         
@@ -453,11 +412,11 @@ Session ID: 1fbb62f93cc5c06b009546ee00e40a3b
       </div>
           <div class="step">
         
-<div class="brief skipped">
+<div class="brief passed">
   <span class="keyword indention">When</span>
   <span class="name">user input "nurul" as userName and input "123" as password</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">403ms</span>
 
   </div>
 
@@ -474,9 +433,9 @@ Session ID: 1fbb62f93cc5c06b009546ee00e40a3b
       </div>
           <div class="step">
         
-<div class="brief skipped">
+<div class="brief passed">
   <span class="keyword indention">Then</span>
-  <span class="name">User see error "Epic sadface: Username and password do not match any user in this service" in login page</span>
+  <span class="name">User see error "Epic sadface: Username and password do not match any user in this services" as errorText in login page</span>
   
   <span class="lead-duration duration">000ms</span>
 
@@ -499,7 +458,7 @@ Session ID: 1fbb62f93cc5c06b009546ee00e40a3b
 
     
   <div class="inner-level hooks-after">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-9">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-8">
       
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -511,13 +470,13 @@ Session ID: 1fbb62f93cc5c06b009546ee00e40a3b
 
     </div>
 
-    <div id="after-9" class="inner-level collapse collapsable-details ">
+    <div id="after-8" class="inner-level collapse collapsable-details ">
               <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
                           <span class="location name">Hooks.closeBrowser()</span>
                         
-  <span class="lead-duration duration">122ms</span>
+  <span class="lead-duration duration">118ms</span>
 
           </div>
 
@@ -542,7 +501,7 @@ Session ID: 1fbb62f93cc5c06b009546ee00e40a3b
   </div>
 
 
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-10">
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-9">
     
 <div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
@@ -555,10 +514,10 @@ Session ID: 1fbb62f93cc5c06b009546ee00e40a3b
   </span>
   <div class="description indention"></div>
 
-  <div id="element-10" class="collapse collapsable-details ">
+  <div id="element-9" class="collapse collapsable-details ">
     
   <div class="inner-level hooks-before">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-11">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-10">
       
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -570,13 +529,13 @@ Session ID: 1fbb62f93cc5c06b009546ee00e40a3b
 
     </div>
 
-    <div id="before-11" class="inner-level collapse collapsable-details ">
+    <div id="before-10" class="inner-level collapse collapsable-details ">
               <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
                           <span class="location name">Hooks.openBrowser()</span>
                         
-  <span class="lead-duration duration">2s 999ms</span>
+  <span class="lead-duration duration">2s 047ms</span>
 
           </div>
 
@@ -592,7 +551,7 @@ Session ID: 1fbb62f93cc5c06b009546ee00e40a3b
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-12">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-11">
     
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -604,14 +563,14 @@ Session ID: 1fbb62f93cc5c06b009546ee00e40a3b
 
   </div>
 
-  <div id="steps-12" class="inner-level collapse collapsable-details ">
+  <div id="steps-11" class="inner-level collapse collapsable-details ">
           <div class="step">
         
 <div class="brief passed">
   <span class="keyword indention">Given</span>
   <span class="name">user open the website sauce demo</span>
   
-  <span class="lead-duration duration">050ms</span>
+  <span class="lead-duration duration">094ms</span>
 
   </div>
 
@@ -632,7 +591,7 @@ Session ID: 1fbb62f93cc5c06b009546ee00e40a3b
   <span class="keyword indention">When</span>
   <span class="name">user input "nurul" as userName and input "" as password</span>
   
-  <span class="lead-duration duration">341ms</span>
+  <span class="lead-duration duration">408ms</span>
 
   </div>
 
@@ -651,9 +610,9 @@ Session ID: 1fbb62f93cc5c06b009546ee00e40a3b
         
 <div class="brief passed">
   <span class="keyword indention">Then</span>
-  <span class="name">User see error "Epic sadface: Password is required" in login page</span>
+  <span class="name">User see error "Epic sadface: Password is required" as errorText in login page</span>
   
-  <span class="lead-duration duration">039ms</span>
+  <span class="lead-duration duration">000ms</span>
 
   </div>
 
@@ -674,7 +633,7 @@ Session ID: 1fbb62f93cc5c06b009546ee00e40a3b
 
     
   <div class="inner-level hooks-after">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-13">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-12">
       
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -686,7 +645,7 @@ Session ID: 1fbb62f93cc5c06b009546ee00e40a3b
 
     </div>
 
-    <div id="after-13" class="inner-level collapse collapsable-details ">
+    <div id="after-12" class="inner-level collapse collapsable-details ">
               <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
@@ -717,9 +676,9 @@ Session ID: 1fbb62f93cc5c06b009546ee00e40a3b
   </div>
 
 
-    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-14">
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-13">
     
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
   <span class="name">Invalid login</span>
   
@@ -730,10 +689,10 @@ Session ID: 1fbb62f93cc5c06b009546ee00e40a3b
   </span>
   <div class="description indention"></div>
 
-  <div id="element-14" class="collapse collapsable-details  in ">
+  <div id="element-13" class="collapse collapsable-details ">
     
   <div class="inner-level hooks-before">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-15">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-14">
       
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -745,13 +704,13 @@ Session ID: 1fbb62f93cc5c06b009546ee00e40a3b
 
     </div>
 
-    <div id="before-15" class="inner-level collapse collapsable-details ">
+    <div id="before-14" class="inner-level collapse collapsable-details ">
               <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
                           <span class="location name">Hooks.openBrowser()</span>
                         
-  <span class="lead-duration duration">1s 571ms</span>
+  <span class="lead-duration duration">1s 813ms</span>
 
           </div>
 
@@ -767,9 +726,9 @@ Session ID: 1fbb62f93cc5c06b009546ee00e40a3b
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-16">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-15">
     
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
   
@@ -779,59 +738,18 @@ Session ID: 1fbb62f93cc5c06b009546ee00e40a3b
 
   </div>
 
-  <div id="steps-16" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-15" class="inner-level collapse collapsable-details ">
           <div class="step">
         
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Given</span>
   <span class="name">user open the website sauce demo</span>
   
-  <span class="lead-duration duration">038ms</span>
+  <span class="lead-duration duration">063ms</span>
 
   </div>
 
         
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-17">
-          <a>Error message</a>
-      </div>
-      <div id="msg-17" class="collapse collapsable-details">
-        <pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#user\-name"}
-  (Session info: chrome=103.0.5060.114)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.1.2', revision: '9a5a329c5a'
-System info: host: 'Shin', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-122-generic', java.version: '1.8.0_312'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e9bd553250391b96693650c596fd4f91, findElement {using=id, value=user-name}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: /tmp/.com.google.Chrome.J9byI1}, goog:chromeOptions: {debuggerAddress: localhost:34527}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:34527/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: e9bd553250391b96693650c596fd4f91
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy21.isDisplayed(Unknown Source)
-	at org.example.pageObject.LoginPage.isDisplayed(LoginPage.java:43)
-	at step_definitions.LoginSteps.verifyDisplay(LoginSteps.java:22)
-	at ✽.Given user open the website sauce demo(features/Login.feature:10)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
         
@@ -844,11 +762,11 @@ Session ID: e9bd553250391b96693650c596fd4f91
       </div>
           <div class="step">
         
-<div class="brief skipped">
+<div class="brief passed">
   <span class="keyword indention">When</span>
   <span class="name">user input "" as userName and input "123" as password</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">350ms</span>
 
   </div>
 
@@ -865,9 +783,9 @@ Session ID: e9bd553250391b96693650c596fd4f91
       </div>
           <div class="step">
         
-<div class="brief skipped">
+<div class="brief passed">
   <span class="keyword indention">Then</span>
-  <span class="name">User see error "Epic sadface: Username is required" in login page</span>
+  <span class="name">User see error "Epic sadface: Username is required" as errorText in login page</span>
   
   <span class="lead-duration duration">000ms</span>
 
@@ -890,7 +808,7 @@ Session ID: e9bd553250391b96693650c596fd4f91
 
     
   <div class="inner-level hooks-after">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-18">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-16">
       
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -902,13 +820,13 @@ Session ID: e9bd553250391b96693650c596fd4f91
 
     </div>
 
-    <div id="after-18" class="inner-level collapse collapsable-details ">
+    <div id="after-16" class="inner-level collapse collapsable-details ">
               <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
                           <span class="location name">Hooks.closeBrowser()</span>
                         
-  <span class="lead-duration duration">131ms</span>
+  <span class="lead-duration duration">107ms</span>
 
           </div>
 
