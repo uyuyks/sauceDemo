@@ -14,7 +14,7 @@ public class Hooks {
     @Before
     public void openBrowser(){
         System.setProperty("webdriver.chrome.driver",
-                System.getProperty("user.dir") + linux);
+                System.getProperty("user.dir") + mac);
 
         WebDriver driver = new ChromeDriver();
         webDriver = driver;

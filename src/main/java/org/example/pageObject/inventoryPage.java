@@ -1,5 +1,6 @@
 package org.example.pageObject;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -59,6 +60,21 @@ public class inventoryPage {
     @FindBy(xpath = "//span[@class='title']")
     private WebElement title;
 
+    @FindBy(id = "item_2_title_link")
+    private WebElement itemOneSie;
+
+    @FindBy(id = "item_3_title_link")
+    private WebElement itemTest;
+
+    @FindBy(className = "summary_total_label")
+    private WebElement totalPrice;
+
+    @FindBy(className = "header_secondary_container")
+    private WebElement headerCheckout;
+
+    @FindBy(className = "complete-header")
+    private WebElement headerFinish;
+
     public void clickBase1(){
         basketItem1.click();
     }
@@ -94,5 +110,26 @@ public class inventoryPage {
 
     public boolean displayLandingPage() {
         return title.isDisplayed();
+    }
+    public String getItemNameOneSie() {
+        WebElement itemName = itemOneSie.findElement(By.className("inventory_item_name"));
+        return itemName.getText();
+    }
+
+    public String getItemNameTest() {
+        WebElement itemName = itemTest.findElement(By.className("inventory_item_name"));
+        return itemName.getText();
+    }
+
+    public String getTotalPrice() {
+        return totalPrice.getText();
+    }
+
+    public boolean isCheckoutDisplayed() {
+        return headerCheckout.isDisplayed();
+    }
+
+    public boolean isFinishDisplayed() {
+        return headerFinish.isDisplayed();
     }
 }

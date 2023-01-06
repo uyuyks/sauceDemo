@@ -10,9 +10,14 @@
       And User pick item Sauce Labs Onesie
       And User pick item Test.allTheThings T-Shirt Red
       And User Click button "Shopping Cart Badge"
+      Then log item name
+      Then Verify item name
       And User Remove item Test.allTheThings T-Shirt Red
       And User Click button "Checkout"
       And User input "first-name" and input "last-name"
       And User input "postal-code"
       And User Click button "Continue"
+      Then User on checkOut page
+      Then log total price
       And User Click button "Finish"
+      Then Verify finish page

@@ -92,4 +92,38 @@ public class PurchaseSteps {
         inventoryPage inventoryPage = new inventoryPage(webDriver);
         Assert.assertTrue(inventoryPage.displayLandingPage());
     }
+
+    @Then("log item name")
+    public void logItemName() {
+        inventoryPage inventoryPage = new inventoryPage(webDriver);
+        System.out.println(inventoryPage.getItemNameTest());
+        System.out.println(inventoryPage.getItemNameOneSie());
+    }
+
+    @Then("Verify item name")
+    public void verifyItemName() {
+        inventoryPage inventoryPage = new inventoryPage(webDriver);
+        String itemNameOne = inventoryPage.getItemNameOneSie();
+        String itemNameTest = inventoryPage.getItemNameTest();
+        Assert.assertEquals(itemNameTest, "Test.allTheThings() T-Shirt (Red)");
+        Assert.assertEquals(itemNameOne, "Sauce Labs Onesie");
+    }
+
+    @Then("log total price")
+    public void logTotalPrice() {
+        inventoryPage inventoryPage = new inventoryPage(webDriver);
+        System.out.println(inventoryPage.getTotalPrice());
+    }
+
+    @Then("User on checkOut page")
+    public void isOnSummaryPage() {
+        inventoryPage inventoryPage = new inventoryPage(webDriver);
+        Assert.assertTrue(inventoryPage.isCheckoutDisplayed());
+    }
+
+    @Then("Verify finish page")
+    public void isOnFinishPage() {
+        inventoryPage inventoryPage = new inventoryPage(webDriver);
+        Assert.assertTrue(inventoryPage.isFinishDisplayed());
+    }
 }
