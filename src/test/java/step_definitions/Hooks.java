@@ -8,13 +8,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Hooks {
     public static WebDriver webDriver;
     public String windows = "\\driver\\chromedriver.exe";
-    public String mac = "/driver/chromedriver";
     public String linux = "/driver/chromedriverlinux";
 
     @Before
     public void openBrowser(){
         System.setProperty("webdriver.chrome.driver",
-                System.getProperty("user.dir") + mac);
+                System.getProperty("user.dir") + linux);
 
         WebDriver driver = new ChromeDriver();
         webDriver = driver;

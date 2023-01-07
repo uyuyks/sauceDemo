@@ -1,104 +1,77 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="34" failures="0" name="step_definitions.RunCukesTest" time="1.056" errors="0" skipped="0">
+<testsuite tests="19" failures="0" name="step_definitions.RunCukesTest" time="0.164" errors="0" skipped="0">
   <properties>
-    <property name="idea.version" value="2022.3.1"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="sun.boot.library.path" value="/Users/infinioaseteknologi/Library/Java/JavaVirtualMachines/corretto-1.8.0_352/Contents/Home/jre/lib"/>
-    <property name="java.vm.version" value="25.352-b08"/>
-    <property name="gopherProxySet" value="false"/>
-    <property name="java.vm.vendor" value="Amazon.com Inc."/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/infinioaseteknologi/Desktop/Test/sauceDemo"/>
-    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
-    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="14.0.2+12-Ubuntu-120.04"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-14-openjdk-amd64/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/iqfar12/IdeaProjects/sauceDemo"/>
+    <property name="java.vm.vendor" value="Private Build"/>
+    <property name="java.vendor.url" value="Unknown"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="user.country" value="ID"/>
+    <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/infinioaseteknologi/Desktop/Test/sauceDemo"/>
-    <property name="java.runtime.version" value="1.8.0_352-b08"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="/Users/infinioaseteknologi/Library/Java/JavaVirtualMachines/corretto-1.8.0_352/Contents/Home/jre/lib/endorsed"/>
-    <property name="os.arch" value="x86_64"/>
-    <property name="java.io.tmpdir" value="/var/folders/jd/t5pz0lzj6gx5srjmg1_w80rw0000gn/T/"/>
+    <property name="user.dir" value="/home/iqfar12/IdeaProjects/sauceDemo"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="14.0.2+12-Ubuntu-120.04"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
     <property name="line.separator" value="
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="os.name" value="Mac OS X"/>
-    <property name="maven.ext.class.path" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven-event-listener.jar"/>
-    <property name="classworlds.conf" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/Users/infinioaseteknologi/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
-    <property name="jansi.passthrough" value="true"/>
-    <property name="maven.conf" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/conf"/>
+    <property name="java.library.path" value="/opt/oracle/instantclient:/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="maven.conf" value="/usr/share/maven/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="58.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="13.1"/>
-    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="user.home" value="/Users/infinioaseteknologi"/>
+    <property name="os.version" value="5.4.0-122-generic"/>
+    <property name="library.jansi.path" value="/usr/share/maven/lib/jansi-native"/>
+    <property name="user.home" value="/home/iqfar12"/>
     <property name="user.timezone" value="Asia/Jakarta"/>
-    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
-    <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="user.name" value="infinioaseteknologi"/>
-    <property name="java.class.path" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds.license:/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.6.0.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar"/>
-    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="java.specification.version" value="14"/>
+    <property name="user.name" value="iqfar12"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.vm.specification.version" value="14"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="/Users/infinioaseteknologi/Library/Java/JavaVirtualMachines/corretto-1.8.0_352/Contents/Home/jre"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.3.1 test"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="/usr/lib/jvm/java-14-openjdk-amd64"/>
     <property name="user.language" value="en"/>
-    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_352"/>
-    <property name="java.ext.dirs" value="/Users/infinioaseteknologi/Library/Java/Extensions:/Users/infinioaseteknologi/Library/Java/JavaVirtualMachines/corretto-1.8.0_352/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
-    <property name="sun.boot.class.path" value="/Users/infinioaseteknologi/Library/Java/JavaVirtualMachines/corretto-1.8.0_352/Contents/Home/jre/lib/resources.jar:/Users/infinioaseteknologi/Library/Java/JavaVirtualMachines/corretto-1.8.0_352/Contents/Home/jre/lib/rt.jar:/Users/infinioaseteknologi/Library/Java/JavaVirtualMachines/corretto-1.8.0_352/Contents/Home/jre/lib/sunrsasign.jar:/Users/infinioaseteknologi/Library/Java/JavaVirtualMachines/corretto-1.8.0_352/Contents/Home/jre/lib/jsse.jar:/Users/infinioaseteknologi/Library/Java/JavaVirtualMachines/corretto-1.8.0_352/Contents/Home/jre/lib/jce.jar:/Users/infinioaseteknologi/Library/Java/JavaVirtualMachines/corretto-1.8.0_352/Contents/Home/jre/lib/charsets.jar:/Users/infinioaseteknologi/Library/Java/JavaVirtualMachines/corretto-1.8.0_352/Contents/Home/jre/lib/jfr.jar:/Users/infinioaseteknologi/Library/Java/JavaVirtualMachines/corretto-1.8.0_352/Contents/Home/jre/classes"/>
-    <property name="java.vendor" value="Amazon.com Inc."/>
-    <property name="java.specification.maintenance.version" value="4"/>
-    <property name="maven.home" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="14.0.2"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="java.vendor" value="Private Build"/>
+    <property name="maven.home" value="/usr/share/maven"/>
     <property name="file.separator" value="/"/>
-    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-8/issues/"/>
+    <property name="java.version.date" value="2020-07-14"/>
+    <property name="java.vendor.url.bug" value="Unknown"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
-    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="Scenario: Normal login" name="Given user open the website sauce demo" time="0.014"/>
+  <testcase classname="Scenario: Normal login" name="Given user open the website sauce demo" time="0.002"/>
   <testcase classname="Scenario: Normal login" name="When user input &quot;standard_user&quot; as userName and input &quot;secret_sauce&quot; as password" time="0"/>
   <testcase classname="Scenario: Normal login" name="Then User already on landing page" time="0"/>
-  <testcase classname="Scenario: Normal login" name="And User sort product list by name z to a" time="0.001"/>
+  <testcase classname="Scenario: Normal login" name="And User sort product list by name z to a" time="0"/>
   <testcase classname="Scenario: Normal login" name="And User pick item Sauce Labs Onesie" time="0"/>
   <testcase classname="Scenario: Normal login" name="And User pick item Test.allTheThings T-Shirt Red" time="0"/>
-  <testcase classname="Scenario: Normal login" name="And User Click button &quot;Shopping Cart Badge&quot;" time="0"/>
-  <testcase classname="Scenario: Normal login" name="Then log item name" time="0.001"/>
+  <testcase classname="Scenario: Normal login" name="And User Click button &quot;Shopping Cart Badge&quot;" time="0.001"/>
+  <testcase classname="Scenario: Normal login" name="Then log item name" time="0"/>
   <testcase classname="Scenario: Normal login" name="Then Verify item name" time="0"/>
   <testcase classname="Scenario: Normal login" name="And User Remove item Test.allTheThings T-Shirt Red" time="0"/>
   <testcase classname="Scenario: Normal login" name="And User Click button &quot;Checkout&quot;" time="0"/>
-  <testcase classname="Scenario: Normal login" name="And User input &quot;first-name&quot; and input &quot;last-name&quot;" time="0.001"/>
+  <testcase classname="Scenario: Normal login" name="And User input &quot;first-name&quot; and input &quot;last-name&quot;" time="0"/>
   <testcase classname="Scenario: Normal login" name="And User input &quot;postal-code&quot;" time="0"/>
   <testcase classname="Scenario: Normal login" name="And User Click button &quot;Continue&quot;" time="0"/>
   <testcase classname="Scenario: Normal login" name="Then User on checkOut page" time="0"/>
   <testcase classname="Scenario: Normal login" name="Then log total price" time="0"/>
   <testcase classname="Scenario: Normal login" name="And User Click button &quot;Finish&quot;" time="0"/>
   <testcase classname="Scenario: Normal login" name="Then Verify finish page" time="0"/>
-  <testcase classname="Scenario: Normal login" name="Scenario: Normal login" time="0.167"/>
-  <testcase classname="Scenario: Normal login" name="Given user open the website sauce demo" time="0"/>
-  <testcase classname="Scenario: Normal login" name="When user input &quot;standard_user&quot; as userName and input &quot;secret_sauce&quot; as password" time="0"/>
-  <testcase classname="Scenario: Normal login" name="Scenario: Normal login" time="0.211"/>
-  <testcase classname="| nurul | 123 | Epic sadface: Username and password do not match any user in this services |" name="Given user open the website sauce demo" time="0"/>
-  <testcase classname="| nurul | 123 | Epic sadface: Username and password do not match any user in this services |" name="When user input &quot;nurul&quot; as userName and input &quot;123&quot; as password" time="0"/>
-  <testcase classname="| nurul | 123 | Epic sadface: Username and password do not match any user in this services |" name="Then User see error &quot;Epic sadface: Username and password do not match any user in this services&quot; as errorText in login page" time="0"/>
-  <testcase classname="| nurul | 123 | Epic sadface: Username and password do not match any user in this services |" name="| nurul | 123 | Epic sadface: Username and password do not match any user in this services |" time="0.216"/>
-  <testcase classname="| nurul |  | Epic sadface: Password is required |" name="Given user open the website sauce demo" time="0"/>
-  <testcase classname="| nurul |  | Epic sadface: Password is required |" name="When user input &quot;nurul&quot; as userName and input &quot;&quot; as password" time="0"/>
-  <testcase classname="| nurul |  | Epic sadface: Password is required |" name="Then User see error &quot;Epic sadface: Password is required&quot; as errorText in login page" time="0"/>
-  <testcase classname="| nurul |  | Epic sadface: Password is required |" name="| nurul |  | Epic sadface: Password is required |" time="0.215"/>
-  <testcase classname="|  | 123 | Epic sadface: Username is required |" name="Given user open the website sauce demo" time="0.002"/>
-  <testcase classname="|  | 123 | Epic sadface: Username is required |" name="When user input &quot;&quot; as userName and input &quot;123&quot; as password" time="0"/>
-  <testcase classname="|  | 123 | Epic sadface: Username is required |" name="Then User see error &quot;Epic sadface: Username is required&quot; as errorText in login page" time="0"/>
-  <testcase classname="|  | 123 | Epic sadface: Username is required |" name="|  | 123 | Epic sadface: Username is required |" time="0.228"/>
+  <testcase classname="Scenario: Normal login" name="Scenario: Normal login" time="0.161"/>
 </testsuite>

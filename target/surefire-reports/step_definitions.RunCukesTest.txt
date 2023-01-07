@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: step_definitions.RunCukesTest
 -------------------------------------------------------------------------------
-Tests run: 34, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 57.814 sec
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 34.167 sec
